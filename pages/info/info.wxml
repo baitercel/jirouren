@@ -1,0 +1,50 @@
+<view class="container chat">
+<view>
+<image src="{{navItems.gif}}"></image>
+</view>
+
+
+  <view class="chat-item flex-wrp you-shang-kuang">
+    
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">锻炼部位</text>
+      </view>
+      <text class="chat-txt">{{navItems.position}}</text>
+    </view>
+  </view>
+  <view class="chat-item flex-wrp">
+    
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">动作准备</text>
+       
+      </view>
+      <text class="chat-txt">{{navItems.prepare}}</text>
+    </view>
+  </view>
+
+  <view class="chat-item flex-wrp">
+    
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">动作过程</text>
+       
+      </view>
+      <text class="chat-txt">{{navItems.process}}</text>
+    </view>
+  </view>
+
+<view class="chat-item flex-wrp wu-xia-kuang">
+    
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">小贴士</text>
+       
+      </view>
+      <text class="chat-txt">{{navItems.tip}}</text>
+    </view>
+  </view>
+
+
+</view>

@@ -1,0 +1,8 @@
+<scroll-view scroll-y = true>
+
+  <image wx:for="{{data}}" bindtap="previewImg" data-idx="{{index}}"  data-sectionIndex="{{item.pic}}" class="{{(index+1)%2 == 0 ? 'exp' : ''}}   userinfo-avatar" src="{{item.pic}}" background-size="cover"></image>
+
+</scroll-view>
+
+
+

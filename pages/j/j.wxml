@@ -1,0 +1,5 @@
+<view class="container flex-wrap flex-direction-col">
+<text class='tips'>
+{{info}}
+</text>
+</view>

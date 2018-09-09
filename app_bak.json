@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/content/content",
+    "pages/info/info",
+    "pages/j/j",
+    "pages/bq/bq"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "肌肉人",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {  
+   "color": "#a9b7b7",  
+   "selectedColor": "#d81e06",  
+   "borderStyle":"black",  
+   "list": [{  
+     "selectedIconPath": "images/jx2.png",  
+     "iconPath": "images/jx1.png",  
+     "pagePath": "pages/index/index",  
+     "text": "动作教学"  
+   },{  
+     "selectedIconPath": "images/bq2.png",  
+     "iconPath": "images/bq1.png",  
+     "pagePath": "pages/bq/bq",  
+     "text": "表情"  
+   },
+    {  
+     "selectedIconPath": "images/jh2.png",  
+     "iconPath": "images/jh1.png",  
+     "pagePath": "pages/j/j",  
+     "text": "健身计划"  
+   }
+   ]  
+ }
+}

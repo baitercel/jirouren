@@ -1,0 +1,4 @@
+/* pages/j/j.wxss */
+.tips{
+    padding:20rpx;
+}
